@@ -1,0 +1,53 @@
+.wind {
+    min-width: 300px;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    background: white;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.opacity {
+    background: black;
+    opacity: 0.2;
+    position: relative;
+}
+
+.position {
+    width: 350px;
+    min-height: 300px;
+    position: absolute;
+    margin-left: calc(50% - 175px);
+    margin-top: 200px;
+    background: rgb(48, 43, 43);
+    color: white;
+}
+
+.position img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.photo p {
+    display: none;
+}
+
+.position p {
+    display: flex;
+    flex-direction: column;
+}
